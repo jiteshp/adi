@@ -27,7 +27,6 @@ gulp.task( 'default', [ 'scripts' ], function() {
 gulp.task( 'scripts', [ 'cleanup' ], function() {
 	return gulp.src( 'assets/js/**/*.js' )
 		.pipe( concat( 'scripts.min.js' ) )
-		.pipe( gulp.dest( 'assets/js' ) )
 		.pipe( uglify() )
 		.pipe( gulp.dest( 'assets/js' ) );
 } );
