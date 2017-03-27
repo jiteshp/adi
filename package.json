@@ -4,6 +4,10 @@
   "description": "A simple, extensible theme built on atomic principals.",
   "author": "Jitesh Patil <jitesh.patil@gmail.com>",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
   }
 }
