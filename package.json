@@ -1,6 +1,9 @@
 {
-	"name": 		"adi",
-	"version": 		"1.0.0",
-	"description": 	"A simple, extensible theme built on atomic principals.",
-	"author": 		"Jitesh Patil <jitesh.patil@gmail.com>",
+  "name": "adi",
+  "version": "1.0.0",
+  "description": "A simple, extensible theme built on atomic principals.",
+  "author": "Jitesh Patil <jitesh.patil@gmail.com>",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
