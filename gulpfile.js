@@ -25,7 +25,7 @@ gulp.task( 'default', [ 'scripts' ], function() {
  * @since 1.0.0
  */
 gulp.task( 'scripts', [ 'cleanup' ], function() {
-	return gulp.src( 'assets/js/**/*.js' )
+	return gulp.src( 'assets/js/*.js' )
 		.pipe( concat( 'scripts.min.js' ) )
 		.pipe( uglify() )
 		.pipe( gulp.dest( 'assets/js' ) );
